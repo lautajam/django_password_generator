@@ -22,5 +22,5 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path("", views.index, name="index"),
     path("about/", views.about, name="about"),
-    path("password/", views.password, name="password"),
+    path("generate_password/", views.password, name="password"),
 ]
