@@ -1,5 +1,39 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
-    <h1>About</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores amet, et incidunt vero tenetur unde quia distinctio, alias iure odit id, sint ea error mollitia iste deleniti iusto? Porro, autem!</p>
+
+    <div class="d-flex justify-content-center align-items-center p-4 m-5">
+        <div class="card shadow-lg">
+            <div class="card-body bg-dark rounded text-white">
+                <h1 class="card-title text-center display-4 mb-4">About this page:</h1>
+                <h2 class="text-center mb-4">Welcome to Password Generator!</h2>
+                <p class="fs-5 text-center mb-4">This page allows you to generate secure passwords quickly and easily. You
+                    can customize your passwords by choosing from a variety of options to increase their level of security.
+                </p>
+                <h3 class="mb-3">Password Generator Features:</h3>
+                <ul class="fs-5">
+                    <li class="mb-3">
+                        Password Length: You can select the desired length of your password. The greater the number of
+                        characters, the more secure your password will be.
+                    </li>
+                    <li class="mb-3">
+                        Capitalization: You can include capital letters in your password to add an extra layer of
+                        complexity.
+                    </li>
+                    <li class="mb-3">
+                        Special Symbols: If you want an even more secure password, you can choose to include special symbols
+                        such as @, #, $, among others.
+                    </li>
+                    <li class="mb-3">
+                        Numbers: You can choose to include numbers in your password to make it more robust.
+                    </li>
+                </ul>
+                <p class="fs-5 text-center py-3">
+                    Remember that it is important to generate strong and unique passwords to protect your accounts and
+                    personal data! Using strong passwords is a fundamental measure to maintain online security.
+                    Use our Password Generator to create strong passwords and protect your online accounts!
+                </p>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}

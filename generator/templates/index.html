@@ -4,10 +4,10 @@
 <div class="d-flex justify-content-center align-items-center p-5">
     <div class="card">
         <div class="card-body bg-black rounded">
-            <h1 class="card-title text-center text-white">Password Generator</h1>
+            <h1 class="card-title text-center text-white display-5">Password Generator</h1>
             <form class="text-center" action="{% url 'password' %}">
                 <div class="form-group">
-                    <label for="length" class="p-3 text-white">Select the length of your password:</label>
+                    <label for="length" class="p-3 my-1 text-white">Select the length of your password:</label>
                     <select class="form-control p-2 rounded" name="length" id="length">
                         <option value="6">6 characters</option>
                         <option value="7">7 characters</option>
@@ -24,28 +24,24 @@
                 <div class="form-check my-3 p-2 bg-secondary rounded">
                     <input class="form-check-input mx-1" type="checkbox" name="uppercase" id="uppercase">
                     <label class="form-check-label text-white text-start" for="uppercase">Uppercase</label>
-                  </div>
-                  
-                  <div class="form-check my-3 p-2 bg-secondary rounded">
+                </div>
+
+                <div class="form-check my-3 p-2 bg-secondary rounded">
                     <input class="form-check-input mx-1" type="checkbox" name="special_symbols" id="special_symbols">
                     <label class="form-check-label text-white text-start" for="special_symbols">Special Symbols</label>
-                  </div>
-                  
-                  <div class="form-check my-3 p-2 bg-secondary rounded">
+                </div>
+
+                <div class="form-check my-3 p-2 bg-secondary rounded">
                     <input class="form-check-input mx-1" type="checkbox" name="numbers" id="numbers">
                     <label class="form-check-label text-white text-start" for="numbers">Numbers</label>
-                  </div>
-                  
-                  
+                </div>
+
+
 
                 <button class="btn btn-secondary my-3">Generate</button>
             </form>
         </div>
     </div>
 </div>
-
-
-
-
 
 {% endblock %}
