@@ -8,3 +8,6 @@ def about(request):
 
 def index(request):
     return render(request, 'index.html')
+
+def password(request):
+    return render(request, 'password.html')
