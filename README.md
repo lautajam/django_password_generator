@@ -28,7 +28,7 @@ Using strong and unique passwords is essential for maintaining online security. 
 
 ## How to Use the Password Generator
 
-1. Access the [Password Generator]([https://passwordgenerator.example.com](https://password-generator-django-lautajamdev.onrender.com/)).
+1. Access the [Password Generator](https://password-generator-django-lautajamdev.onrender.com/).
 2. Choose the desired password length by moving the slider to the appropriate position.
 3. Select the "Include Uppercase Letters" option if you want to add capital letters to your password.
 4. Check the "Include Special Symbols" box to include special characters for added security.
